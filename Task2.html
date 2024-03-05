@@ -1,37 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Task 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя веб-сторінка</title>
 </head>
 <body>
-    <h1>Моє рідне місто</h1>
-    <p>Опис вашого рідного міста тут.</p>
+    <header>
+        <h1>Моя веб-сторінка</h1>
+        <nav>
+            <ul>
+                <li><a href="Poltava.html" target="#basic_info">Моє рідне місто</a></li>
+                <li><a href="Poltava.html#universities"target="history">Вузи Полтавщини</a></li>
+                <li><a href="#favorite_lakes">Мої улюблені ставки</a></li>
+                <li><a href="mailto:andrewdzyubenko05@gmail.com">Контактна інформація</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Вузи Полтавщини</h1>
-    <p>Опис вузів Полтавщини тут.</p>
+    <main>
+        <section id="my_city">
+            <h2>Моє рідне місто</h2>
+            <p><a href="Poltava.html" target="_blank">Дізнатися більше про Полтаву</a></p>
+        </section>
 
-    <h1>Мої улюблені стави</h1>
-    <p>Опис ваших улюблених ставів тут.</p>
+        <section id="universities">
+            <h2>Вузи Полтавщини</h2>
+            <p><a href="Poltava.html#universities" target="_blank">Дізнатися більше про вузи Полтавщини</a></p>
+        </section>
 
-    <h2>Нумерований список дисциплін</h2>
-    <ol>
-        <li>Дисципліна 1</li>
-        <li>Дисципліна 2</li>
-        <li>Дисципліна 3</li>
-    </ol>
+        <section id="favorite_lakes">
+            <h2>Мої улюблені ставки</h2>
+            <p>Опис улюблених ставків...</p>
+        </section>
 
-    <h2>Маркований список улюблених страв</h2>
-    <ul>
-        <li>Страва 1</li>
-        <li>Страва 2</li>
-        <li>Страва 3</li>
-    </ul>
+        <section id="disciplines">
+            <h2>Нумерований список дисциплін</h2>
+            <ol>
+                <li>Хімія</li>
+                <li>Фізика</li>
+                <li>Математика</li>
+            </ol>
+        </section>
 
-    <a href="Poltava.html">Моє рідне місто</a>
-    <a href="Poltava.html#vuzi">Вузи Полтавщини</a>
-    <a href="mailto:your-email@example.com">Ваша електронна адреса</a>
+        <section id="favorite_dishes">
+            <h2>Мої улюблені страви</h2>
+            <ul>
+                <li>Піца</li>
+                <li>Суші</li>
+                <li>Вареники</li>
+            </ul>
+        </section>
+    </main>
 
-    <a href="#top">У початок сторінки</a>
-
+    <footer>
+        <p><a href="#top">У початок сторінки</a></p>
+        <p>Контактна інформація: ваша електронна адреса</p>
+        <p>Social Media Links:
+            <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>,
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>,
+            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+            <p><a href="mailto:andrewdzyubenko05@gmail.com">електронна адреса</a></p>
+        </p>
+    </footer>
 </body>
 </html>
